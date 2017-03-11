@@ -1,0 +1,58 @@
+body {
+	
+}
+
+#wrapper {
+	
+}
+
+#page-wrapper{
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.side-nav .collapse > li > form{
+	padding:5px;
+}
+
+.side-nav .collapse > li > form>.form-group{
+	padding:5px;
+}
+
+.side-nav .collapse > li > form>.form-group > input{
+	margin-bottom:5px;
+}
+
+.side-nav > li > a {
+	padding:5px;
+	line-height: 40px;
+	height: 57px;
+}
+
+.side-nav > li > a > span {
+	padding:5px;
+	height: 100%;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+
+.list-icon{
+	width:48px;
+	height:48px;
+	background-image: url('../images/ic_launcher/res/mipmap-mdpi/ic_launcher.png');
+}
+
+#googleMap {
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+

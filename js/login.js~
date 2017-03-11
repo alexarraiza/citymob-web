@@ -1,0 +1,20 @@
+var username = "citymob@citymob.com";
+var password = "city!123";
+var url = 'http://10.4.180.23/api/v2/user/session'
+ 
+$.ajax({ 
+    url: url,
+    async: true,
+    type:'GET',
+    dataType: 'json',
+    contentType: 'application/json',
+    beforeSend: function(xhr) {
+        xhr.setRequestHeader("Authorization", "Basic "+ btoa(username+':'+password));
+    },
+    success: function(json){
+        ...
+    },
+    error: function(err) {
+        ...
+    }
+});

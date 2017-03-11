@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+
+  <title>CityMob</title>
+  <meta name="description" content="City Mobility">
+  <meta name="hfgbcn01" content="SitePoint">
+
+  <link rel="stylesheet" href="../../css/styles.css?v=1.0">
+</head>
+
+<div id="add_marker">
+	<form id="marker_form">
+		<div id="marker_map"></div>
+		<div><label for="title">Título</label><input id="title" type="text" name="title" /></div>
+		<div><label for="description">Descripción</label><textarea id="description" name="description" rows="4" cols="33"></textarea></div>
+		<div><label for="type">Tipo</label><select id="type">
+			<option value="1">Barrera</option>
+			<option value="2">Escalera</option>
+		</select>
+		<div class="buttons"><button>Insertar</button><button>Cancelar</button></div>
+	</form>
+</div>
+  <script src="js/scripts.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnpitHzMwdymbQ2P70NY7CU9RoWe_4WHI&callback=getLocation"></script>
+</body>
+</html>
